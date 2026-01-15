@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconG.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: blue;
+        }
+    </style>
     <title>Formatação de Textos</title>
 </head>
 <body>
@@ -22,7 +28,29 @@
 
     <p>essa frase esta em <em>Italico</em> usando a tag &lt;em&gt; <br>
     elá é (semantica) tem significado</p>
+    
+    <h2>Formataçoes adicionais!</h2>
+    <!--Colocando style em uma tag-->
+    <p>para Deixar um texto com <mark>marcaçao</mark> usa a tag &lt;mark&gt;</p>
+    <p>usando outra cor para <mark style="background-color: lime;">marcaçao</mark></p>
+    <!--e se voce tever milhares de mark, irar colocar style um por um?
+    Nop, pois e possivel colocar em todos na tag <head>-->
+    
+    <h2>Criando texto grande e pequeno</h2>
+    <p style="font-size: x-large;">o texto grande é mior com css pois a tag big esta absoleta</p>
+    <p>para deixa <small>o texto pequeno</small> usa a tag &lt;small&gt;</p>
+    
+    <h2>para texto Deletados</h2>
+    <p>para texto <del>deletado</del> usa a tag &lt;del&gt;</p>
 
+    <h2>para texto inserido</h2>
+    <p>Usa a tag &lt;ins&gt; para colocar uma <ins>linha embaixo</ins></p> <!--é semantica e tem um significado no HTML-->
+    <p>a tag &lt;u&gt; tambem é usada porem <u>não é semantica</u></p>
+    
+    <h2>para texto sobrescrito</h2>
+    <p>essa equaçao  x <sup>2</sup>+23 </p>
 
+    <h2>para texte subscrito</h2>
+    <p>como exembo h <sub>2</sub>o</p>
 </body>
 </html>
