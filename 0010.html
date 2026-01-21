@@ -12,5 +12,15 @@
         <source media="(max-width:1000px)" srcset="escanor-m.jpg" type="image/jpg">
         <img src="escanor-g.jpg" alt="lord escanor">
     </picture>
+    <h1>Adicionando audio em HTML5</h1>
+    <p>Vamos aprender a reproduzir audio</p>
+    <audio src="calmo.mp3" controls autoplay></audio>
+    
+    <h1>Outra formas tambem de colocar audio</h1>
+    <audio preload="none" controls autoplay loop>
+        <source src="calmo.mp3" type="audio/mpeg">
+        <!--se não for compativel com o navegador-->
+        <p>se navegador nao tem suporte pra mpeg</p>
+    </audio>
 </body>
 </html>
