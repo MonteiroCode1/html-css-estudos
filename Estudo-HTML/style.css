@@ -1,0 +1,20 @@
+
+body {
+    background-color:aqua;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    color:blueviolet;
+    background-color:burlywood;
+}
+
+h2 {
+    color:crimson;
+    background-color: chocolate;
+}
+
+p {
+    text-align:center;
+    color:blue;
+}
