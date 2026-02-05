@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Gradiente em CSS</title>
+    <style>
+        /*seletores*/
+        /* Seletor Especil, global*/
+        * { /*COnfiguraçoes globais da CSS*/
+            height: 100%;
+        }
+        body {
+            /*usamos esse metodo para cliar cores degrade*/
+            background-image: linear-gradient(to top, #2B381C, #9C9C46 30%,
+             #494F2B);
+            /*na funçao linear-gradient() 1 paramento é a direçao, por onde vai começar, 2, 3 ... parametros sao cores. */
+            background-attachment: fixed;
+            /*Não deixa rolar muito*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testanto Gradiente</h1>
+</body>
+</html>
