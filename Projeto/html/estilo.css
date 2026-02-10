@@ -1,28 +1,32 @@
 body {
   background-image: linear-gradient(to left, #0254FA, #2047BB);
-  font_family: "georgia";
+  font-family: georgia;
 }
 
 main {
   background-color: white;
   width: 410px;
   padding: 10px;
-  marin: auto;
-  color: #003870
+  margin: auto;
+  color: black;/*#003870;*/
 }
 
 p {
   text-align: justify;
-  color: #003870;
+  color: black;
 }
 img {
-  width: 400;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #1762D3;
 }
 
 h1 {
   color: #1762D3;
+  font-family: georgia;
 }
 
 h2 {
   color: #1866DB;
+  font-family: georgia;
 }
