@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>projeto-dev</title>
+</head>
+<body>
+    <h1>Portal do Desenvolvedor MonteiroCode</h1>
+    <h2>Sobre mim</h2>
+    <p>Olá!, Sou Desenvoldor web, e amo <mark>"Back-end"</mark>, <em>gosto muito de manipular dados com os sistemas que criei.</em></p>
+    <p>Essa são as Linguagens de Programação Que Gosto de Programar</p>
+    <ul>
+        <li><abbr title="Meu primeiro toque na Programação foi com essa Linguagem">Python</abbr></li>
+        <li><abbr title="Estou gostando Bastante, muito MASSA">JavaScript</abbr></li>
+        <li><abbr title="Estou Bastante Ansioso para começar a Estudar sua sintaxe, pois Programar eu Já Sei!">Php</abbr></li>
+    </ul>
+    <h2>Meus Objetivos para 2026</h2>
+    <ol>
+        <li>Conseguir Estagio</li>
+        <li>Comprar um Notebook</li>
+        <li>Ter conhecimento pleno das linguagens que tenho estudado do inicio até o final de 2026</li>
+    </ol>
+    <p>olha so esse Sistema em JavaScript com Node.js, Simulando um banco que tem apenas notas de R$10 para saques.</p>
+    <pre>
+        <code>
+            const prompt = require("prompt-sync")();
+            
+            // sistema de saques de um banco
+            
+            const saques = [];
+            
+            do {
+                const saque = Number(prompt("saque: "));
+                // verificaçao, para uso do break
+                if (saque == 0) {
+                    break
+                }
+                //verificaçao, se é um valor valido
+                if (saque % 10 == 0) {
+                    console.log("Saque Valido!...");
+                    saques.push(saque);
+                } else {
+                    console.log("Saque Invalido!...");
+                    saques.push(saque);
+                }
+            
+            } while (true)
+            
+            console.log(`\nSaques Validos\n${"-".repeat(40)}\n`);
+            const saques_validos = saques.filter(elemento => elemento % 10 == 0);
+            soma = saques_validos.reduce((acumulador, elemento) => acumulador + elemento, 0);
+            for (const e of saques_validos) {
+                console.log(e.toFixed(2));
+            }
+            console.log(`Total dos Saques: R$ ${soma.toFixed(2)}\n`);
+            
+            console.log(`Numero de Tentativas de saques (Saques Invalidos): ${saques.length - saques_validos.length}`);
+        </code>
+    </pre>
+    <img src="https://img.freepik.com/vetores-gratis/fundo-de-codificacao-digital-com-numeros-zero-e-um_1017-30363.jpg?semt=ais_user_personalization&w=740&q=80" alt="Codigos" width="300px">
+    <hr>
+    <p>Acesse Meu PortFolio: <a href="https://github.com/monteirocode1" target="_blank" rel="external">GitHub</a></p>
+</body>
+</html>
