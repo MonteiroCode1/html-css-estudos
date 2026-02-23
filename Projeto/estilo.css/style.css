@@ -5,7 +5,8 @@ body {
 
 main {
   background-color: white;
-  width: 410px;
+  font-display: auto;
+  width: 500px;
   padding: 10px;
   margin: auto;
   color: black;/*#003870;*/
