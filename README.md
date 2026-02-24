@@ -1,13 +1,65 @@
-# HTML-CSS
-***
-## Projetos Futuros
-- [ ] Tela de logins com desing bem bonita
-- [ ] lista de Tarefas
-- [ ] Cardapios
+# 📚 HTML & CSS Estudos
 
-1. Nesse Momento estou aprendeno a linguagen **MarkDown**, que não é
-2. uma linguagen de **programaçao!**.
-3. Estou **Dominando** _HTML5, CSS3 e Java Scritp__ Com Cursos Do __Gustavo Guanabra__ do _curso em vidio_!
+Repositório dedicado aos meus estudos de **HTML5 e CSS3**, com exercícios, desafios e projetos desenvolvidos durante os cursos e práticas pessoais.
 
-<img width="100" height="100" alt="globo" src="https://github.com/user-attachments/assets/28644191-64b4-4eb7-92b9-8cdeb90584eb" />
-[click aqui](htpps://github.com/Monteiroode1)
+---
+
+## 🚀 Objetivo
+
+Este repositório documenta minha evolução no desenvolvimento front-end, reunindo:
+
+- Exercícios dos módulos de HTML e CSS
+- Projetos práticos
+- Experimentos visuais
+- Estudos de layout e responsividade
+
+---
+
+## 📂 Estrutura do Repositório
+
+📁 **HTML-CSS-Modulo-1**  
+> Exercícios e práticas iniciais de HTML5 e CSS3  
+
+📁 **HTML-CSS-Modulo-2**  
+> Conteúdos mais avançados de estilização e layout  
+
+📁 **Projeto**  
+> Projetos completos aplicando os conhecimentos adquiridos  
+
+---
+
+## 🧠 Tecnologias Estudadas
+
+- HTML5
+- CSS3
+- Markdown
+- Git e GitHub
+
+---
+
+## 🎯 Projetos Futuros
+
+Projetos que pretendo desenvolver conforme avanço nos estudos:
+
+- Tela de login moderna
+- Lista de tarefas (To-Do List)
+- Cardápio digital
+
+---
+
+## 📖 Cursos e Referências
+
+Estudos baseados nos cursos do **Gustavo Guanabara – Curso em Vídeo**
+
+---
+
+## 👨‍💻 Autor
+
+**Guilherme Monteiro**  
+🔗 https://github.com/MonteiroCode1  
+
+---
+
+## 📌 Status
+
+📍 Em constante atualização conforme avanço nos estudos de Front-End
