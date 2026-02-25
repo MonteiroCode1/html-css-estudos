@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(0, 128, 0);
+}
+
+#principal {
+    background-color: rgba(0, 255, 0, 0.308);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: rgba(0, 255, 0, 0.644);
+}
+
+h2 {
+    color: rgb(0, 255, 0);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
