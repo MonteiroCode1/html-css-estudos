@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    background-color: blue;
+    font-style: italic;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: rgb(0, 204, 255);
+    background-color: rgb(0, 0, 116);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.3em;
+    color: rgb(16, 255, 175);
+}
+
+p {
+    color: black;
+    font-size: larger;
+    text-indent: 30px;
+}
+
+.subtitulo {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(53, 20, 85);
+}
