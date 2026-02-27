@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplos</title>
+    <style>
+        
+        div {
+            display: inline-block;
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+        
+        #inPre > p {
+            display: none;
+        }
+
+        #inPre:hover > p {
+            display: block;
+            color: rgb(0, 0, 0);
+            background-color: blue;
+            width: 200px;
+            text-align: center;
+        }
+
+        #inPre:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+
+    <pre id="inPre">
+click aqui
+        <p>Texto Escondido</p>
+    </pre>
+</body>
+</html>
