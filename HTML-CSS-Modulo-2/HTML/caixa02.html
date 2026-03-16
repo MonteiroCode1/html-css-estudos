@@ -3,83 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caixas Box level</title>
+    <title>Grouping tags</title>
     <style>
         body {
-            background-color: rgb(106, 106, 107);
+            background-color: dimgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0px;
+        }
+
+        .sombreamento {
+            box-shadow: 4px 4px 4px #5c5b5b
         }
 
         header {
             background-color: white;
-            height: 150px;
-            padding: 35px 10px 0px 10px;
+            padding: 10px;
+            margin: 10px
         }
 
         nav {
-            background-color:rgb(106, 106, 107);
-            padding: 10px;
+            background-color: rgb(73, 73, 73);
+            padding: 8px;
+            box-shadow: 4px 4px 5px 1px rgb(104, 104, 104);
         }
 
-        a {
+        nav > a {
             color: white;
-            padding-right: 1em;
+            margin-right: 30px;
+            font-weight: bold;
             text-decoration: none;
         }
 
-        a:hover {
-            color: black;
+        nav > a:hover {
             text-decoration: underline;
+            color: black;
         }
 
         main {
             background-color: white;
-            padding: 10px 10px 10px 10px;
-            margin: 20px 0px;
+            padding: 10px;
+            margin: 10px
         }
-        .CorDeFundo {
-            background-color: rgb(106, 106, 107);
+
+        article {
+            background-color: rgba(105, 105, 105, 0.527);
             padding: 10px;
         }
 
-        aside {
-            background-color: rgb(80, 80, 94);
-            padding: 10px;
+        article > aside {
+            background-color: rgba(105, 105, 105, 0.678);
         }
 
         footer {
             background-color: black;
             color: white;
-            padding: 5px;
             text-align: center;
+            padding: 1px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Curso De Analize e Desenvolvimento de Sistemas</h1>
+    <header> <!--Cabeçalho do site-->
+        <h1>Python e Django</h1>
         <nav>
-            <a href="#">Python</a>
-            <a href="#">Java Script</a>
-            <a href="#">PhP</a>
-            <a href="#">HTML5</a>
-            <a href="#">CSS3</a>
-            <a href="https://github.com/monteirocode1" target="_blank" rel="external">Git Hub</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
         </nav>
     </header>
-<main>
-    <section>
-        <p>esportes politicas</p>
-    </section>
-    <section class="CorDeFundo">
-        <article>
-            <h2>Esportes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates repellendus corrupti doloribus dicta recusandae itaque eius enim ut. Nihil voluptas accusantium, cumque cupiditate minus asperiores fugiat iste deleniti tenetur cum!</p>
-            <aside>Autor: MonteiroCode1</aside>
-        </article>
-    </section>
-</main>
-<footer>
-    <p>Desenvolvido por Curso em Vidio</p>
-</footer>
+
+    <main> <!--Conteudo Principal-->
+        <section id="assunto">
+            <h2 class="sombreamento">Politicas e Esportes</h2>
+        </section>
+
+        <section>
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe rem aut voluptatem, nemo omnis! Omnis fugit neque natus accusamus, id laboriosam alias numquam, veritatis doloremque temporibus ullam quam quisquam!</p>
+                <aside>
+                    <p>artigo criado por Guilherme Monteiro</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!--é o rodapé do site-->
+        <p>Desenvolvido por Curso em Vidio</p>
+    </footer>
 </body>
 </html>
