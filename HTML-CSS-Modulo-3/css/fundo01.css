@@ -1,0 +1,35 @@
+
+
+
+h1 {
+    background-image: url(../image/pattern002.png);
+    color: rgb(58, 3, 161);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+body {
+    background-image: url('../image/wallpaper001.jpg');
+}
+
+div#q1 {
+    background-color: steelblue;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#q3 {
+    background-image: url('../image/pattern003.png');
+}
