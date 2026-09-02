@@ -24,9 +24,9 @@ Abaixo estão os principais projetos práticos desenvolvidos ao longo do aprendi
 
 | Projeto | Módulo | Descrição / Tecnologias Usadas | Link Online |
 | :--- | :---: | :--- | :---: |
-| **Projeto Android** *(Exemplo)* | Módulo 2 | Site contando a história do mascote do Android, focado em semântica, responsividade básica e cores. | [🔗 Ver Projeto](#) |
+| **Projeto Android** | Módulo 2 | Site contando a história do mascote do Android, focado em semântica, responsividade básica e cores. | [🔗 Ver Projeto](#) |
 | **Projeto Cordel** | Módulo 3 | Projeto focado no efeito **Parallax** com imagens de fundo fixas, tipografia temática e layout fluido. | [🔗 Ver Projeto](https://monteirocode1.github.io/html-css-estudos/HTML-CSS-Modulo-3/project/html/) |
-| **Projeto Redes Sociais** *(Exemplo)* | Módulo 4 | *Em breve (projeto de navegação e telas de celulares)* | — |
+| **Projeto Redes Sociais** | Módulo 4 | *Em breve (projeto de navegação e telas de celulares)* | — |
 
 ---
 
