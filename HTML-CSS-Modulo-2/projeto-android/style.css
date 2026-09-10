@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(1, 66, 1), rgb(0, 220, 0));
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    margin: 20px;
+}
+
+header > p {
+    padding: 10px;
+}
+
+header > nav {
+    margin-top: 10px;
+    text-align: left;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+}
