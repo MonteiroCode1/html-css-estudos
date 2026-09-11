@@ -5,8 +5,10 @@
     padding: 0px;
 }
 
+/*cofigurando o cabeçalho*/
+
 header {
-    background-image: linear-gradient(to top, rgb(1, 66, 1), rgb(0, 220, 0));
+    background-image: linear-gradient(to top, #1A5E38, #2A965A, #3AD07D);
     padding: 10px;
     text-align: center;
     color: white;
@@ -34,7 +36,56 @@ header > nav > a {
 }
 
 header a:hover {
-    background-color: greenyellow;
-    color: black;
+    background-color: #3AD07D;
+    color: rgb(0, 255, 38);
     border-radius: 10px;
+}
+
+/*configurando o corpo do site*/
+
+main {
+    background-color: #84E1AC;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+article > h2 {
+    color: #286644;
+}
+
+article > h3 {
+    color: #286644;
+    background-image: linear-gradient(to right, #C8EBD8, white 99%);
+}
+
+article > p {
+    padding: 10px;
+    text-indent: 30px;
+}
+
+article > aside {
+    background-color: #C5EBD6;
+    padding: 0px 0px 10x 0px;
+    border-radius: 10px;
+}
+
+article > aside > h4 {
+    background-color: #2FA766;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+article > aside > p {
+    padding: 10px;
+    text-indent: 30px;
+}
+
+article > img {
+    width: 100%;
 }
