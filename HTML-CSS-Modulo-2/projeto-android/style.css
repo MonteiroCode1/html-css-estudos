@@ -86,6 +86,24 @@ article > aside > p {
     text-indent: 30px;
 }
 
-article > img {
+article img {
     width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+article div {
+    background-color: #1A5E38;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 16px auto
+}
+
+article iframe {
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
