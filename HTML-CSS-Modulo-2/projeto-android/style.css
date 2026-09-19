@@ -59,6 +59,22 @@ article {
 
 }
 
+article a {
+    padding: 2px;
+    border-radius: 5px;
+    color: #1A5E38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    background-color: #84E1AC;
+}
+
+article a::after {
+    content: ' 🔗';
+}
+
 article > h2 {
     color: #286644;
 }
