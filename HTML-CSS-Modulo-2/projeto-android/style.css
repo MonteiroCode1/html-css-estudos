@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "android";
+    src: url(font/idroid.otf) format("opentype");
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -59,7 +64,12 @@ article {
 
 }
 
+article h2 {
+    padding-top: 20px;
+}
+
 article h2, h3 {
+    font-family: 'android';
     padding-left: 20px;
 }
 
@@ -85,7 +95,7 @@ article > h2 {
 
 article > h3 {
     color: #286644;
-    background-image: linear-gradient(to right, #C8EBD8, white 99%);
+    background-image: linear-gradient(to right, #6fd69c, transparent);
 }
 
 article > p {
