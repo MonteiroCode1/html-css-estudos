@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas de tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .nome {
+            background-color: red;
+        }
+
+        .idade {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome" span="2">
+            <col class="idade" span="2">
+            <col class="sexo">     
+        </colgroup>
+        <caption>
+            Usando Colunas
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td>20</td>
+            <td>Masculino</td>
+            <td>Desenvolvedor de Software</td>
+        </tr>
+        <tr>
+            <td>Klecius</td>
+            <td>37</td>
+            <td>Masculino</td>
+            <td>Operador de Usina Nuclear</td>
+        </tr>
+        <tr>
+            <td>Franciene</td>
+            <td>39</td>
+            <td>Feminino</td>
+            <td>Professora de Universidade</td>
+        </tr>
+        <tr>
+            <td>Maria Fernanda</td>
+            <td>10</td>
+            <td>Feminino</td>
+            <td>Neura Cirugião</td>
+        </tr>
+    </table>
+</body>
+</html>
