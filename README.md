@@ -13,8 +13,8 @@ Repositório dedicado ao acompanhamento do meu aprendizado em **Desenvolvimento 
 
 ## 🎯 Progresso Atual
 
-> 📍 **Módulo 3 — Capítulo 21 (Tabelas)**  
-> ⏳ **Status geral:** Finalizando o Módulo 3.
+> 📍 **Módulo 4 — Capítulo 01 (Iframe)**  
+> ⏳ **Status geral:** Começando o Módulo 4.
 
 ---
 
@@ -57,12 +57,12 @@ Aprofundamento na estética, teoria das cores, usabilidade e modelos de caixa do
 
 ---
 
-### 🟨 Módulo 3 — Imagens de Fundo e Tabelas [Em Andamento 🛠️]
+### 🟩 Módulo 3 — Imagens de Fundo e Tabelas [Concluido]
 Técnicas de posicionamento visual e exibição tabular de dados.
 
 * [x] **Capítulo 19 - Imagens de Fundo:** `background-image`, `background-position`, `background-repeat` e `background-size` (cover/contain).
 * [x] **Capítulo 20 - Centralização e Parallax:** Técnicas de alinhamento vertical e efeito Parallax em CSS puro (Projeto Cordel).
-* [⏳] **Capítulo 21 - Tabelas:**
+* [X] **Capítulo 21 - Tabelas:**
   * Estrutura básica: `<table>`, `<tr>`, `<th>`, `<td>`.
   * Semântica completa: `<thead>`, `<tbody>`, `<tfoot>`.
   * Estilização de tabelas grandes, colunas fixas e efeito zebra (*striped*).
@@ -71,7 +71,7 @@ Técnicas de posicionamento visual e exibição tabular de dados.
 
 ---
 
-### ⬜ Módulo 4 — Formulários e Responsividade [Próximos Passos 🔮]
+### 🟨 Módulo 4 — Formulários e Responsividade [Iniciado]
 Tópicos que serão abordados nas próximas etapas da trilha:
 
 * **Iframes:** Incorporação de conteúdos externos de forma segura.
