@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usando iframes</title>
+    <style>
+        iframe {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>iframe usando em uma linha</h1>
     <p>
         acesse o 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <iframe src="https://www.google.com/?hl=pt_BR" frameborder="0">
+            <a href="https://www.google.com/?hl=pt_BR" target="_blank">click aqui</a>
+        </iframe>
         em vidio
     </p>
 
-    <p>acese meu projeto <iframe src="https://monteirocode1.github.io/html-css-estudos/HTML-CSS-Modulo-2/projeto-android" frameborder="0"></iframe>Android</p>
+    <p>acese meu projeto <iframe src="https://monteirocode1.github.io/html-css-estudos/HTML-CSS-Modulo-2/projeto-android" frameborder="0" scolling="no"></iframe>Android</p>
 
     <p>acesse meu projeto <iframe src="https://monteirocode1.github.io/html-css-estudos/HTML-CSS-Modulo-3/projeto-cordel/html/" frameborder="0"></iframe> Cordel</p>
 </body>
