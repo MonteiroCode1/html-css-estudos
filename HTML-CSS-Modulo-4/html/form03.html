@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Formulario e seu tipos</h1>
+    <form action="../js/cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="inNome">Nome</label>
+            <input type="text" name="nome" id="inNome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="inNota">Nota</label>
+            <input type="number" name="nota" id="inNota" required min="0" max="10" step="0.1" placeholder="0 a 10">
+        </p>
+        <p>
+            <label for="inPeriodo">Periodo</label>
+            <input type="month" name="periodo" id="inPeriodo">
+        </p>
+
+        <p>
+            <label for="inData">Data</label>
+            <input type="date" name="data" id="inData">
+        </p>
+
+        <p>
+            <label for="inTime">Hora</label>
+            <input type="time" name="time" id="inTime">
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+</body>
+</html>
