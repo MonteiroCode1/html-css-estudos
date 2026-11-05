@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fromulario</title>
+    <style>
+        body {
+            background-color: brown;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>formularios</h1>
+
+    <form action="../js/cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas" value="M"> <label for="imas">Masculino</label>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminina</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="futebol" id="ifutebol"> <label for="ifutebol">Futebol</label> <br>
+            
+            <input type="checkbox" name="futsal" id="ifutsal"> <label for="ifutsal">Futsal</label> <br>
+
+            <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">volei</label> <br>
+
+            <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
