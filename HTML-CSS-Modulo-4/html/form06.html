@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="../js/cadastro.js" method="post" autocomplete="on">
+        <p> 
+            <label for="ifoto">Escolha uma foto</label> 
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <label for="icolor">Escolha uma cor</label>
+            <input type="color" name="cor" id="icolor">
+        </p>
+
+        <p>
+            <label for="inivel">Nivel de satisfação</label>
+            <input type="range" name="nivel" id="inivel">
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
