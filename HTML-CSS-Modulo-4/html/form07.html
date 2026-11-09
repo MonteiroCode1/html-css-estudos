@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="../js/cadastro.js" method="post">
+        <fieldset>
+            <legend>Estados</legend>
+            <p>
+                <label for="iestados">Região onde Você Mora:</label>
+                <select name="estados" id="iestados" required>
+                    <option value="">--Ecolha o estado--</option>
+            
+                    <optgroup label="Estados">
+                        <option>Tocantins</option>
+                        <option>São Paulo</option>
+                        <option>Amazonas</option>
+                        <option>Goias</option>
+                    </optgroup>
+                    <optgroup label="Cidades">
+                        <option>Nova Olinda</option>
+                        <option>São Paulo, Capital</option>
+                        <option>Manaus</option>
+                        <option>Goiás Velho</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Profissão</legend>
+            <p>
+                <label for="iprofissao">Área: </label>
+                <input type="text" name="profissao" id="iprofissao" list="listprof" required> 
+                <datalist id="listprof">
+                    <option>Professor</option>
+                    <option>Desenvolvedor</option>
+                    <option>Medico</option>
+                    <option>Conzinheiro</option>
+                </datalist>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentarios</legend>
+            <label for="icomentario">Descreva Você</label> <br>
+            <textarea name="comentario" id="icomentario" placeholder="digite sua historia"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
