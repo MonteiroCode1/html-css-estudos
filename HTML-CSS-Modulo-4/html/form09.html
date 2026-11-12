@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body {
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <p>
+        <label for="inivel">Nivel da Dificuldade</label>
+        <input type="range" name="nivel" id="inivel" min="0" max="100" value="50" oninput="ivalor.innerHTML = inivel.value">
+    </p>
+    <p>
+        <label for="ivalor">Nivel:</label>
+        <output name="valor" id="ivalor">0</output>
+    </p>
+</body>
+</html>
